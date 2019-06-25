@@ -11,10 +11,10 @@ MOUNTING
 - componentDidMount
 
 UPDATING
+- shouldComponentUpdate
 
 
 UNMOUNTING
-
 
 
 Handy Websites/Tools:
