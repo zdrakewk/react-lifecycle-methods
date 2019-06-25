@@ -15,6 +15,7 @@ UPDATING
 
 
 UNMOUNTING
+- componentWIllUnmount
 
 
 Handy Websites/Tools:
