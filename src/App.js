@@ -12,7 +12,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Name name={this.state.name} />
+        <Name firstName={this.state.name} />
       </div>
     );
   }

@@ -3,13 +3,13 @@ import React, { Component } from 'react';
 class Name extends Component {
   static getDerivedStateFromProps(props){
     // debugger
-   return {name: `${props.name} Davis` }
+   return {name: `${props.firstName} Davis`, age: 75 }
   }
 
   render() {
     return (
       <div>
-        {this.state.name}
+        {this.state.name} is {this.state.age} years old!!!
       </div>
     );
   }
