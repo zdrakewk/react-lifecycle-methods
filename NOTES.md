@@ -21,4 +21,6 @@ UNMOUNTING
 Handy Websites/Tools:
 React Code Snippets (rcc): https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets
 
+React Snippets for Atom: https://atom.io/packages/react-snippets
+
 DOCS getDerivedStateFromProps(): https://reactjs.org/docs/react-component.html#static-getderivedstatefromprops
