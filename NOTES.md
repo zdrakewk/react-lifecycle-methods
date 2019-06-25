@@ -7,6 +7,8 @@ PRE-MOUNT => before component is mounted 2 DOM, AKA not on the page
 
 MOUNTING
 - getDerivedStateFromProps
+- render
+- componentDidMount
 
 UPDATING
 
