@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { tsConstructorType } from '@babel/types';
-
+import Name from './name'
 class App extends Component {
   constructor() {
     super()
@@ -13,7 +12,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {this.state.name}
+        <Name name={this.state.name} />
       </div>
     );
   }
