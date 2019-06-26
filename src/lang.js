@@ -2,15 +2,15 @@ import React, { Component } from 'react';
 
 class Language extends Component {
   state = { language: 'React'}
-  
-  // shouldComponentUpdate(nextProps, nextState) {
-  //   // debugger
-  //   if (this.state.language === nextState.language) {
-  //     return false
-  //   } else {
-  //     return true
-  //   }
-  // }
+
+  shouldComponentUpdate(nextProps, nextState) {
+    // debugger
+    if (this.state.language === nextState.language) {
+      return false
+    } else {
+      return true
+    }
+  }
 
   // componentDidMount(){
   //   setTimeout(()=>{
@@ -20,6 +20,7 @@ class Language extends Component {
 
   componentDidMount(){
     this.inteval = setInterval(()=>{
+         // console.log(this.interval)
       //call 3rd party to fectch data
     })
   }
@@ -34,8 +35,10 @@ class Language extends Component {
   }
 
   render() {
+    // console.log("rendering component")
     return (
       <div>
+        <br /><hr />
         <br /><hr />
         {this.state.language}
         <button onClick={this.changeLang}>Change Language</button>
