@@ -21,9 +21,9 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer" >
-            Learn React LifeCycle
-          </a>
+          <p>
+            Learn React LifeCycle, getDerivedStateFromProps, componentDidMount, shouldComponentUpdate, componentWillUnmount
+          </p>
         </header>
 
 

@@ -3,35 +3,41 @@ import React, { Component } from 'react';
 class Language extends Component {
   state = { language: 'React'}
 
-  shouldComponentUpdate(nextProps, nextState) {
-    // debugger
-    if (this.state.language === nextState.language) {
-      return false
-    } else {
-      return true
-    }
-  }
+  // shouldComponentUpdate(nextProps, nextState) {
 
-  // componentDidMount(){
-  //   setTimeout(()=>{
-  //     this.setState({language: 'Vue'})
-  //   }, 2000)
+  //   if (this.state.language === nextState.language) {
+  //     return false
+  //   } else {
+  //     return true
+  //   }
   // }
 
-  componentDidMount(){
-    this.inteval = setInterval(()=>{
-         // console.log(this.interval)
-      //call 3rd party to fectch data
-    })
-  }
+  componentDidMount(){    //this is 2nds timer to change the language without click on change button.
+    setTimeout(()=>{
+      this.setState({language: 'Vue'})
+    }, 2000)
+  }                   
 
-  componentWillUnmount() {
-    clearInterval(this.inteval)
-  }
+  // componentDidMount(){
+  //   this.inteval = setInterval(()=>{
+  //        // alert('hello"; 9000')
+  //        // console.log(this.interval)
+  //   }) //call 3rd party to fectch data
+  // }
+
+  // componentWillUnmount() {      //unmount
+  //   clearInterval(this.inteval)
+  // }
+
 
   changeLang = (e) => {
     e.preventDefault();
     this.setState({language: 'Vue'})
+  }
+
+  resetPage = (e) => {
+    e.preventDefault(); 
+    window.location.reload();
   }
 
   render() {
@@ -40,8 +46,11 @@ class Language extends Component {
       <div>
         <br /><hr />
         <br /><hr />
-        {this.state.language}
-        <button onClick={this.changeLang}>Change Language</button>
+        The current language is set by a timer and it will change to: <mark>{this.state.language}</mark>
+        <br/>
+        <button onClick={this.changeLang}>Change Language manually</button>
+        <br/>
+        <button onClick={this.resetPage}>Reset page</button>
       </div>
     );
   }
