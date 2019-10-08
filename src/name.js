@@ -8,12 +8,12 @@ class Name extends Component {
 
   static getDerivedStateFromProps(props){
    return {name: `${props.firstName} Davidson`, age: 45 }
-  }     //reture object to updata new state , state.name and state.age 
+  }     //reture object to updata new state , state.name and state.age
 
   render() {
     return (
       <div>
-        <h4>getDerivedStateFromProps return new object to cahnge the state: </h4>
+        <p><b>getDerivedStateFromProps</b> return new object before render() to update the state: </p>
         <p>{this.state.name} is {this.state.age} years old!!!</p>
       </div>
     );

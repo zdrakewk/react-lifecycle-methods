@@ -16,7 +16,7 @@ class Language extends Component {
     setTimeout(()=>{
       this.setState({language: 'Vue'})
     }, 2000)
-  }                   
+  }
 
   // componentDidMount(){
   //   this.inteval = setInterval(()=>{
@@ -29,14 +29,17 @@ class Language extends Component {
   //   clearInterval(this.inteval)
   // }
 
-
   changeLang = (e) => {
     e.preventDefault();
-    this.setState({language: 'Vue'})
+    if (this.state.language === 'Vue') {
+      this.setState({language: 'Angular'})
+    } else if (this.state.language === 'Angular') {
+      this.setState({language: 'No more options, please reset'})
+    }
   }
 
   resetPage = (e) => {
-    e.preventDefault(); 
+    e.preventDefault();
     window.location.reload();
   }
 
@@ -44,13 +47,28 @@ class Language extends Component {
     // console.log("rendering component")
     return (
       <div>
-        <br /><hr />
-        <br /><hr />
-        The current language is set by a timer and it will change to: <mark>{this.state.language}</mark>
+        <br /><hr/>
+        <li>
+          Four stage of Component LifeCycle: Pre-mounting, Mouting, Updateing, Unmounting.
+        </li>
+        <li>
+          In <b>componentDidMount</b> method invoked after render(), use a setTimeout method to change language automatically: <mark>{this.state.language}</mark>
+        </li>
+
         <br/>
         <button onClick={this.changeLang}>Change Language manually</button>
         <br/>
         <button onClick={this.resetPage}>Reset page</button>
+        <li>
+          <b>shouldComponentUpdate</b> will return a boolean. We can put a condition compare this.state.language and nextState.lanugage.
+        </li>
+        <li>
+          <b>componentWillUnmount</b>, which is called just before the component gets deleted. This is used to clear out any stuff set up in <b>componentDidMount</b>.
+        </li>
+        <li>
+          Deprecated methods:
+          componentWillReceiveProps, componentWillMount, componentWillReceiveProps, componentWillUpdate
+        </li>
       </div>
     );
   }
