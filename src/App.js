@@ -11,6 +11,10 @@ class App extends Component {
     }
   }
 
+  // this.state = {
+  //   name: 'Hank'
+  // }
+
   render() {
     return (
       <div className="App">
