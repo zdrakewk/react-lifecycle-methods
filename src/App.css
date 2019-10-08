@@ -8,6 +8,11 @@
   pointer-events: none;
 }
 
+.chart {
+  height: 60vmin;
+  pointer-events: none;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 15vh;
