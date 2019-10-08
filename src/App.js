@@ -23,17 +23,18 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
 
+          <p>Learn React LifeCycle</p>
           <p>
-            Learn React LifeCycle, getDerivedStateFromProps, componentDidMount, shouldComponentUpdate, componentWillUnmount
+            getDerivedStateFromProps, componentDidMount, shouldComponentUpdate, componentWillUnmount
           </p>
         </header>
 
 
         <Name firstName={this.state.name} />
         <Lang />
-        
+
         <br/>
-          
+
         <img src={chart} className="chart" alt="LifeCycle Chart" />
       </div>
     );
