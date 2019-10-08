@@ -13,7 +13,8 @@ class Name extends Component {
   render() {
     return (
       <div>
-        {this.state.name} is {this.state.age} years old!!!
+        <h4>getDerivedStateFromProps return new object to cahnge the state: </h4>
+        <p>{this.state.name} is {this.state.age} years old!!!</p>
       </div>
     );
   }
