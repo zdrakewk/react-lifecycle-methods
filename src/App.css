@@ -42,10 +42,10 @@
 }
 
 p {
-  color: green;
+  /* color: green; */
 }
 body {
-  color: maroon;
+  /* color: blue; */
 }
 button {
   color: purple;
@@ -55,7 +55,6 @@ button:hover {
 }
 
 img#chart1 {
-  
   padding: 10px;
   border-color: blue;
   background-color: grey;
