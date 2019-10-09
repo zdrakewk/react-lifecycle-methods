@@ -40,3 +40,25 @@
     transform: rotate(360deg);
   }
 }
+
+p {
+  color: green;
+}
+body {
+  color: maroon;
+}
+button {
+  color: purple;
+}
+button:hover {
+  color: red;
+}
+
+img#chart1 {
+  
+  padding: 10px;
+  border-color: blue;
+  background-color: grey;
+  width: 350px;
+  height: 400px;
+}

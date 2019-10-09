@@ -35,7 +35,7 @@ class App extends Component {
 
         <br/>
 
-        <img src={chart} className="chart" alt="LifeCycle Chart" />
+        <img id='chart1' src={chart} alt="LifeCycle Chart" />
       </div>
     );
   }

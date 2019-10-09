@@ -58,7 +58,7 @@ class Language extends Component {
         <br/>
         <button onClick={this.changeLang}>Change Language manually</button>
         <br/>
-        <button onClick={this.resetPage}>Reset page</button>
+        <button id='chart1' className='chart1' onClick={this.resetPage}>Reset page</button>
         <li>
           <b>shouldComponentUpdate</b> will return a boolean. We can put a condition compare this.state.language and nextState.lanugage.
         </li>
