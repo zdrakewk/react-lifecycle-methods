@@ -1,6 +1,7 @@
-"homepage": "http://hankeliu2015.github.io/react-lifecycle-methods"
+
 
 {
+  "homepage": "http://hankeliu2015.github.io/react-lifecycle-methods",
   "name": "react-lifecycle-methods",
   "version": "0.1.0",
   "private": true,
