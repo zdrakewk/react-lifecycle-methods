@@ -63,7 +63,7 @@ img#chart1 {
 }
 
 .color-box {
-  border: 1em solid #444;
+  border: 1em solid black;
   height: 90%;
   width: 90%;
   display: flex;

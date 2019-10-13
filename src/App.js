@@ -6,6 +6,7 @@ import Name from './name';
 import Lang from './lang';
 import RecursiveColor from './components/recursiveColor';
 
+
 class App extends Component {
   constructor() {
     super()
@@ -17,15 +18,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
+        {/*
+          <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-
           <p>Learn React LifeCycle</p>
-          <p>
-            getDerivedStateFromProps, componentDidMount, shouldComponentUpdate, componentWillUnmount
-          </p>
-        </header>
-        <RecursiveColor opacity={1}/>
+          </header>
+          */}
+
+        <RecursiveColor opacity={0.5}/>
 
         <Name firstName={this.state.name} />
         <Lang />
