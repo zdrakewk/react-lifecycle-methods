@@ -27,11 +27,11 @@ class App extends Component {
 
         <RecursiveColor opacity={0.5}/>
 
-        <Name firstName={this.state.name} />
         <Lang />
         <br/>
         <img id='chart1' src={chart} alt="LifeCycle Chart" />
         <br />
+        <Name firstName={this.state.name} />
 
       </div>
     );
