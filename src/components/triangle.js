@@ -1,8 +1,7 @@
 import React from 'react';
 
-let j = '';
-
 const printTriangle = (n) => {
+  let j = '';
   for (let i = 0; i < n; i++ ) {
     j = j.concat('*')
     // debugger
