@@ -3,7 +3,8 @@ import './App.css';
 import logo from './logo.svg';
 import chart from './lifecyclechart.jpeg';
 import Name from './name';
-import Lang from './lang'
+import Lang from './lang';
+import RecursiveColor from './components/recursiveColor';
 
 class App extends Component {
   constructor() {
@@ -12,10 +13,6 @@ class App extends Component {
       name: 'Joey'
     }
   }
-
-  // this.state = {
-  //   name: 'Hank'
-  // }
 
   render() {
     return (
@@ -28,14 +25,14 @@ class App extends Component {
             getDerivedStateFromProps, componentDidMount, shouldComponentUpdate, componentWillUnmount
           </p>
         </header>
-
+        <RecursiveColor opacity={1}/>
 
         <Name firstName={this.state.name} />
         <Lang />
-
         <br/>
-
         <img id='chart1' src={chart} alt="LifeCycle Chart" />
+        <br />
+
       </div>
     );
   }

@@ -61,3 +61,13 @@ img#chart1 {
   width: 350px;
   height: 400px;
 }
+
+.color-box {
+  border: 1em solid #444;
+  height: 90%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
