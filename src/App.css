@@ -84,3 +84,22 @@ img#chart1 {
   border: 3px black solid;
 
 }
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  transform: translate(60px);
+
+  margin: 10px;
+  &__label {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+  }
+  &__icon {
+    width: 50px;
+    cursor: pointer;
+    color: white;
+
+  }
+}
