@@ -54,3 +54,4 @@ const toppingOptions = [
     ]
   },
 ]
+export default toppingOptions;
