@@ -7,6 +7,7 @@ import Lang from './lang';
 import RecursiveColor from './components/recursiveColor';
 import Triangle from './components/triangle';
 import ImRecursive from './components/imRecursive';
+import Pizza from './containers/pizza';
 
 
 class App extends Component {
@@ -32,6 +33,8 @@ class App extends Component {
         <Triangle n={10}/>
         <h3>Recursive Component Inside Itself</h3>
         <ImRecursive child={true} />
+        <h3>Recursive Pizza Topping Component</h3>
+        <Pizza />
 
         <Lang />
         <br/>
