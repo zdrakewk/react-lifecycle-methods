@@ -71,3 +71,16 @@ img#chart1 {
   align-items: center;
   border-radius: 50px;
 }
+
+.parent {
+  background: grey;
+  padding: 20px;
+  border: 1px black solid;
+
+}
+.child {
+  background: white;
+  padding: 10px;
+  border: 3px black solid;
+
+}

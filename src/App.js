@@ -6,6 +6,7 @@ import Name from './name';
 import Lang from './lang';
 import RecursiveColor from './components/recursiveColor';
 import Triangle from './components/triangle';
+import ImRecursive from './components/imRecursive';
 
 
 class App extends Component {
@@ -25,9 +26,12 @@ class App extends Component {
           <p>Learn React LifeCycle</p>
           </header>
           */}
-
+        <h3>Recursive Opacity Boxes Components</h3>
         <RecursiveColor opacity={0.5}/>
+        <h3>Recursive Triangle Components</h3>
         <Triangle n={10}/>
+        <h3>Recursive Component Inside Itself</h3>
+        <ImRecursive child={true} />
 
         <Lang />
         <br/>
