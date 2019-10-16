@@ -27,6 +27,17 @@ class App extends Component {
           <p>Learn React LifeCycle</p>
           </header>
           */}
+        <h3>Opacity Test 1</h3>
+        <div className={'opacitytest'} style={{opacity: 1}}>Opacity is 1</div>
+        <div className={'opacitytest'} style={{opacity: 0.5}}>Opacity is 0.5</div>
+        <h3>Opacity Test 2</h3>
+        <h2 className="ontop">the element free of the transparent division.</h2>
+        <div className="bar">
+          <h2>Some mild-mannered text trapped inside a bar.</h2>
+        </div>
+
+        <br/>
+
         <h3>Recursive Opacity Boxes Components</h3>
         <RecursiveColor opacity={0.5}/>
         <h3>Recursive Triangle Components</h3>

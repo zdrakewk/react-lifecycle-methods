@@ -7,7 +7,7 @@ class OptionsList extends Component {
 
     return (
       <div>
-        pizzaOptionsList
+        WIP - pizzaOptionsList
       </div>
     )
   }

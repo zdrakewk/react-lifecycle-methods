@@ -85,6 +85,25 @@ img#chart1 {
 
 }
 
+.opacitytest {
+  background-color: black;
+}
+
+.bar {
+  height: 4em;
+  padding-top: 2em;
+  opacity: 0.1;
+  background: black;
+  border-top: 3px solid #ccc;
+  border-bottom: 3px solid #ccc;
+  /* margin-top: 5.0em; */
+}
+
+h2.ontop {
+  position: relative;
+  top: 3.5em;
+}
+
 .checkbox {
   display: flex;
   align-items: center;
