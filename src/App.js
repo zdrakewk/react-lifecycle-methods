@@ -35,6 +35,13 @@ class App extends Component {
         <div className="bar">
           <h2>Some mild-mannered text trapped inside a bar.</h2>
         </div>
+        <h3>Opacity Test 3</h3>
+          <div class="container">
+            <h3>cannot make a child element less transparent than the parent</h3>
+            <div class="opacity70">opacity: 0.7</div>
+            <div class="opacity60">opacity: 0.6</div>
+            <div class="opacity50">opacity: 0.5</div>
+          </div>
 
         <br/>
 

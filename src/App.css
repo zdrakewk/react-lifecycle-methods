@@ -104,6 +104,24 @@ h2.ontop {
   top: 3.5em;
 }
 
+.container > div {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background: #d58a3c;
+}
+div.opacity70 {
+  opacity: 0.7;
+}
+
+div.opacity60 {
+  opacity: 0.6;
+}
+
+div.opacity50 {
+  opacity: 0.5;
+}
+
 .checkbox {
   display: flex;
   align-items: center;
