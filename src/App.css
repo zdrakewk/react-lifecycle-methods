@@ -143,9 +143,6 @@ div.opacity50 {
   }
 }
 
-.super {
-  color: red;
-}
 
 a {
   color: blue;
@@ -156,4 +153,25 @@ a:hover {
 }
 a:visited {
   color: maroon;
+}
+
+
+/* h4.super {
+  color: purple;
+}*/
+
+/* h2 {
+  color: yellow;
+} */
+
+#hero {
+  color: red;
+}
+
+.super {
+  color: blue;
+}
+
+div#hero > h4 {
+  color: pink;
 }

@@ -9,7 +9,7 @@ class StylingTest extends Component {
       <div>
         <div>
 
-          <h4 className="super">The Flash</h4>
+          <h4 id ='hero' className="super" style={{color: 'grey'}}>The Flash</h4>
           <p>The Flash is a fictional superhero in comic books.</p>
 
         </div>
