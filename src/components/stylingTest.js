@@ -9,13 +9,14 @@ class StylingTest extends Component {
       <div>
         <div>
 
-          <h4>The Flash</h4>
+          <h4 className="super">The Flash</h4>
           <p>The Flash is a fictional superhero in comic books.</p>
 
         </div>
         <div>
-          <h4>Reverse Flash</h4>
+          <h4 className="super">Reverse Flash</h4>
           <p>Reverse Flash is a supervillain in comic books.
+          <a href="https://www.w3schools.com">Visit W3Schools.com!</a>
         </p>
       </div>
 
