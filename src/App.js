@@ -8,6 +8,7 @@ import RecursiveColor from './components/recursiveColor';
 import Triangle from './components/triangle';
 import ImRecursive from './components/imRecursive';
 import Pizza from './containers/pizza';
+import StylingTest from './components/stylingTest';
 
 
 class App extends Component {
@@ -27,6 +28,10 @@ class App extends Component {
           <p>Learn React LifeCycle</p>
           </header>
           */}
+
+        <h3>CSS Styple Test</h3>
+        <div className={'opacitytest'} style={{opacity: 0.5}}>Opacity is 0.5</div>
+        <StylingTest/>
         <h3>Opacity Test 1</h3>
         <div className={'opacitytest'} style={{opacity: 1}}>Opacity is 1</div>
         <div className={'opacitytest'} style={{opacity: 0.5}}>Opacity is 0.5</div>
@@ -48,7 +53,7 @@ class App extends Component {
         <h3>Recursive Opacity Boxes Components</h3>
         <RecursiveColor opacity={0.5}/>
         <h3>Recursive Triangle Components</h3>
-        <Triangle n={10}/>
+        <Triangle n={5}/>
         <h3>Recursive Component Inside Itself</h3>
         <ImRecursive child={true} />
         <h3>Recursive Pizza Topping Component</h3>
