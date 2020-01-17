@@ -30,7 +30,7 @@ class App extends Component {
           */}
 
         <h3>CSS Styple Test</h3>
-        <div className={'opacitytest'} style={{opacity: 0.5}}>Opacity is 0.5</div>
+        <div className={'opacitytest'} style={{opacity: 0.5}}>.</div>
         <StylingTest/>
         <h3>Opacity Test 1</h3>
         <div className={'opacitytest'} style={{opacity: 1}}>Opacity is 1</div>
